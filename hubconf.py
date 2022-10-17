@@ -45,6 +45,7 @@ class NeuralNetwork(nn.Module):
 #############################
 
 def load_data():
+    print("testing my branch")
 
     # Download training data from open datasets.
     training_data = datasets.FashionMNIST(
