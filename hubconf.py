@@ -48,7 +48,8 @@ def get_lossfn_and_optimizer(mymodel):
 
 
 def load_data():
-
+    print("checking my changes")
+    
     # Download training data from open datasets.
     training_data = datasets.FashionMNIST(
         root="data",
